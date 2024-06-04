@@ -1,6 +1,6 @@
 package Visitor;
 
-public class NumberExpression extends Expression {
+public class NumberExpression<T> extends Expression {
 
     private int number;
 
@@ -13,7 +13,7 @@ public class NumberExpression extends Expression {
     }
 
     @Override
-    public String accept(ExpressionVisitor ExpVis) {
+    public <T> T accept(ExpressionVisitor<T> ExpVis) {
         return ExpVis.visit(this);
     }
 }

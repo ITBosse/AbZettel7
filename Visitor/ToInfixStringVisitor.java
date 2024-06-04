@@ -1,6 +1,6 @@
 package Visitor;
 
-public class ToInfixStringVisitor extends ExpressionVisitor {
+public class ToInfixStringVisitor extends ExpressionVisitor<String> {
 
     @Override
     public String visit(NumberExpression e) {

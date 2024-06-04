@@ -6,7 +6,7 @@ public class MultiplikationExpression extends BinaryExpression {
     }
 
     @Override
-    public String accept(ExpressionVisitor ExpVis) {
+    public <T> T accept(ExpressionVisitor<T> ExpVis) {
         return ExpVis.visit(this);
     }
 

@@ -1,6 +1,5 @@
 package Visitor;
 
 public abstract class Expression {
-    public abstract String accept(ExpressionVisitor ExpVis);
-
+    public abstract <T> T accept(ExpressionVisitor<T> ExpVis);
 }

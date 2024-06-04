@@ -7,7 +7,6 @@ import org.junit.Test;
 
 public class test {
 
-    @SuppressWarnings("deprecation")
     @Test
     public void test1() {
         Shop shop1 = new Shop();
