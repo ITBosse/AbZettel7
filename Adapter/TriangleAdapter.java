@@ -47,4 +47,5 @@ public class TriangleAdapter extends Shape2D{
         legacyTriangle.pointC().setxPos(legacyTriangle.pointA().getxPos() + acx * factor);
         legacyTriangle.pointC().setyPos(legacyTriangle.pointA().getyPos() + acy * factor);
     }
+    //test
 }

@@ -14,3 +14,4 @@ public class LegacyPoint {
         this.yPos = yPos;
     }
 }
+//test
