@@ -2,7 +2,7 @@ package Observer;
 
 public class Shop {
 
-    PriceList priceList = new PriceList();
+    public PriceList priceList = new PriceList();
 
     public void addItem(Item item) {
         priceList.addItem(item);
