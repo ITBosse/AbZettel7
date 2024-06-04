@@ -13,6 +13,10 @@ public class Item extends Subject {
         return name;
     }
 
+    public void setName(String newName) {
+        this.name = newName;
+    }
+
     public float getPrice() {
         return price;
     }
