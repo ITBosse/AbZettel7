@@ -5,4 +5,3 @@ public record LegacyTriangle(
         LegacyPoint pointB,
         LegacyPoint pointC) {
 }
-//test

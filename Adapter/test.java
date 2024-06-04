@@ -35,5 +35,4 @@ public class test {
         assertEquals(1.0, triangle.pointC().getxPos(), 0.1);
         assertEquals(3.0, triangle.pointC().getyPos(), 0.1);
     }
-    //test
 }
